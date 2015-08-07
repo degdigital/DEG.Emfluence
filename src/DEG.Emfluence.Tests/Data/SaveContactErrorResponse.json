@@ -1,0 +1,10 @@
+﻿{
+  "success": 0,
+  "errors": [
+    "Email \"john.doe@example.com\" belongs to another record."
+  ],
+  "data": {
+    "contactID": 456
+  },
+  "code": 301
+}

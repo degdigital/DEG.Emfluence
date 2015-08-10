@@ -1,0 +1,44 @@
+﻿{ 
+    "success": 1, 
+    "data": { 
+        "paging": { 
+                "next": "", 
+                "page": 1, 
+                "rpp": 20, 
+                "totalPages": 1, 
+                "totalRecords": 2, 
+                "prev": "" 
+            }, 
+        "records": [ 
+            { 
+                "friendlyName": "B2C Customers", 
+                "dateAdded": "2013-02-12 02:42:00", 
+                "description": "", 
+                "groupID": 123, 
+                "private": 1, 
+                "dateModified": "", 
+                "groupName": "B2C Customers", 
+                "autoResponseEmailID": "", 
+                "userID": 123, 
+                "totalMembers": 1000, 
+                "activeMembers": 500, 
+                "dateLastEmailSent": "2015-02-12 00:42:00"
+            }, 
+            { 
+                "friendlyName": "B2B Customers", 
+                "dateAdded": "2014-01-21 02:57:00", 
+                "description": "", 
+                "groupID": 456, 
+                "private": 1, 
+                "dateModified": "", 
+                "groupName": "B2B Customers", 
+                "autoResponseEmailID": 123, 
+                "userID": "", 
+                "totalMembers": 1000, 
+                "activeMembers": 500, 
+                "dateLastEmailSent": "2015-02-12 00:42:00", 
+            } 
+        ] 
+    }, 
+    "code": 0 
+}

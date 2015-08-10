@@ -6,6 +6,7 @@ This module provides a simple integration with the [Emfluence API v1](https://ap
 # Features
 
 1. Save contacts
+1. Search for groups
 
 Yup, that's it for now. This module does very little, but it tries to do it very well.
 

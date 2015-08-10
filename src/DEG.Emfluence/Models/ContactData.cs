@@ -5,7 +5,7 @@ namespace DEG.Emfluence.Models
 {
     [Serializable]
     [DataContract]
-    public class ContactData
+    public class ContactData : DateAddedModifiedBase
     {
         /// <summary>
         /// Unique ID of a contact
@@ -95,21 +95,6 @@ namespace DEG.Emfluence.Models
         {
             get { DateTime parsed; return DateTime.TryParse(DateSuppressedRaw, out parsed) ? parsed : (DateTime?)null; }
             set { DateSuppressedRaw = value.HasValue ? value.Value.ToString("yyyy-MM-dd HH:mm:ss") : null; }
-        }
-
-        [DataMember(Name = "dateAdded", EmitDefaultValue = false)]
-        public string DateAddedRaw { get; set; }
-        public DateTime? DateAdded
-        {
-            get { DateTime parsed; return DateTime.TryParse(DateAddedRaw, out parsed) ? parsed : (DateTime?) null; }
-            set { DateAddedRaw = value.HasValue ? value.Value.ToString("yyyy-MM-dd HH:mm:ss") : null; }
-        }
-        [DataMember(Name = "dateModified", EmitDefaultValue = false)]
-        public string DateModifiedRaw { get; set; }
-        public DateTime? DateModified
-        {
-            get { DateTime parsed; return DateTime.TryParse(DateModifiedRaw, out parsed) ? parsed : (DateTime?)null; }
-            set { DateModifiedRaw = value.HasValue ? value.Value.ToString("yyyy-MM-dd HH:mm:ss") : null; }
         }
 
         [DataMember(Name = "customFields", EmitDefaultValue = false)]

@@ -3,3 +3,8 @@ C:\_Application\SITECORE.2\DEG.Emfluence\bin\Debug\DEG.Emfluence.pdb
 C:\_Application\SITECORE.2\DEG.Emfluence\bin\Debug\DEG.ServiceCore.dll
 C:\_Application\SITECORE.2\DEG.Emfluence\obj\Debug\DEG.Emfluence.dll
 C:\_Application\SITECORE.2\DEG.Emfluence\obj\Debug\DEG.Emfluence.pdb
+C:\Source\github\DEG.Emfluence\src\DEG.Emfluence\bin\Debug\DEG.Emfluence.dll
+C:\Source\github\DEG.Emfluence\src\DEG.Emfluence\bin\Debug\DEG.Emfluence.pdb
+C:\Source\github\DEG.Emfluence\src\DEG.Emfluence\obj\Debug\DEG.Emfluence.csprojResolveAssemblyReference.cache
+C:\Source\github\DEG.Emfluence\src\DEG.Emfluence\obj\Debug\DEG.Emfluence.dll
+C:\Source\github\DEG.Emfluence\src\DEG.Emfluence\obj\Debug\DEG.Emfluence.pdb

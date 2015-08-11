@@ -148,6 +148,16 @@ namespace DEG.Emfluence.Models
     [DataContract]
     public class CustomFieldValue
     {
+        public CustomFieldValue()
+        {
+        }
+
+        public CustomFieldValue(string label, string value)
+        {
+            Label = label;
+            Value = value;
+        }
+
         [DataMember(Name = "label")]
         public string Label { get; set; }
         [DataMember(Name = "value")]

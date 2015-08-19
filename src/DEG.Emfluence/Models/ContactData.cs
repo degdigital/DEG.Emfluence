@@ -150,6 +150,7 @@ namespace DEG.Emfluence.Models
         public CustomFieldValue Custom9 { get; set; }
         [DataMember(Name = "custom10", EmitDefaultValue = false)]
         public CustomFieldValue Custom10 { get; set; }
+
         [DataMember(Name = "custom11", EmitDefaultValue = false)]
         public CustomFieldValue Custom11 { get; set; }
         [DataMember(Name = "custom12", EmitDefaultValue = false)]
@@ -170,6 +171,7 @@ namespace DEG.Emfluence.Models
         public CustomFieldValue Custom19 { get; set; }
         [DataMember(Name = "custom20", EmitDefaultValue = false)]
         public CustomFieldValue Custom20 { get; set; }
+
         [DataMember(Name = "custom21", EmitDefaultValue = false)]
         public CustomFieldValue Custom21 { get; set; }
         [DataMember(Name = "custom22", EmitDefaultValue = false)]

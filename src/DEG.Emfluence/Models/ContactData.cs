@@ -142,6 +142,54 @@ namespace DEG.Emfluence.Models
         public CustomFieldValue Custom5 { get; set; }
         [DataMember(Name = "custom6", EmitDefaultValue = false)]
         public CustomFieldValue Custom6 { get; set; }
+        [DataMember(Name = "custom7", EmitDefaultValue = false)]
+        public CustomFieldValue Custom7 { get; set; }
+        [DataMember(Name = "custom8", EmitDefaultValue = false)]
+        public CustomFieldValue Custom8 { get; set; }
+        [DataMember(Name = "custom9", EmitDefaultValue = false)]
+        public CustomFieldValue Custom9 { get; set; }
+        [DataMember(Name = "custom10", EmitDefaultValue = false)]
+        public CustomFieldValue Custom10 { get; set; }
+        [DataMember(Name = "custom11", EmitDefaultValue = false)]
+        public CustomFieldValue Custom11 { get; set; }
+        [DataMember(Name = "custom12", EmitDefaultValue = false)]
+        public CustomFieldValue Custom12 { get; set; }
+        [DataMember(Name = "custom13", EmitDefaultValue = false)]
+        public CustomFieldValue Custom13 { get; set; }
+        [DataMember(Name = "custom14", EmitDefaultValue = false)]
+        public CustomFieldValue Custom14 { get; set; }
+        [DataMember(Name = "custom15", EmitDefaultValue = false)]
+        public CustomFieldValue Custom15 { get; set; }
+        [DataMember(Name = "custom16", EmitDefaultValue = false)]
+        public CustomFieldValue Custom16 { get; set; }
+        [DataMember(Name = "custom17", EmitDefaultValue = false)]
+        public CustomFieldValue Custom17 { get; set; }
+        [DataMember(Name = "custom18", EmitDefaultValue = false)]
+        public CustomFieldValue Custom18 { get; set; }
+        [DataMember(Name = "custom19", EmitDefaultValue = false)]
+        public CustomFieldValue Custom19 { get; set; }
+        [DataMember(Name = "custom20", EmitDefaultValue = false)]
+        public CustomFieldValue Custom20 { get; set; }
+        [DataMember(Name = "custom21", EmitDefaultValue = false)]
+        public CustomFieldValue Custom21 { get; set; }
+        [DataMember(Name = "custom22", EmitDefaultValue = false)]
+        public CustomFieldValue Custom22 { get; set; }
+        [DataMember(Name = "custom23", EmitDefaultValue = false)]
+        public CustomFieldValue Custom23 { get; set; }
+        [DataMember(Name = "custom24", EmitDefaultValue = false)]
+        public CustomFieldValue Custom24 { get; set; }
+        [DataMember(Name = "custom25", EmitDefaultValue = false)]
+        public CustomFieldValue Custom25 { get; set; }
+        [DataMember(Name = "custom26", EmitDefaultValue = false)]
+        public CustomFieldValue Custom26 { get; set; }
+        [DataMember(Name = "custom27", EmitDefaultValue = false)]
+        public CustomFieldValue Custom27 { get; set; }
+        [DataMember(Name = "custom28", EmitDefaultValue = false)]
+        public CustomFieldValue Custom28 { get; set; }
+        [DataMember(Name = "custom29", EmitDefaultValue = false)]
+        public CustomFieldValue Custom29 { get; set; }
+        [DataMember(Name = "custom30", EmitDefaultValue = false)]
+        public CustomFieldValue Custom30 { get; set; }
     }
 
     [Serializable]
